@@ -4,4 +4,4 @@ numpy
 matplotlib
 flask
 os
-python==3.10.6
+python_version=="3.10"
