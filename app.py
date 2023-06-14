@@ -141,3 +141,7 @@ def upload_file():
 def download_file():
     path = 'output.xlsx'
     return send_file(path, as_attachment=True)
+
+
+if __name__ == "__main__":
+    app.run()
