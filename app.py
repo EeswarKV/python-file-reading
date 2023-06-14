@@ -4,9 +4,10 @@ import matplotlib.pyplot as plt
 from flask import Flask, render_template, request, send_file
 import os
 
-project_root = os.path.dirname(__file__)
-template_path = os.path.join(project_root, './')
-app = Flask(__name__, template_folder=template_path)
+# project_root = os.path.dirname(__file__)
+# template_path = os.path.join(project_root, './')
+# app = Flask(__name__, template_folder=template_path)
+app = Flask(__name__)
 
 unique_list_of_accounts_and_themes = []
 list_of_accounts_and_themes = []
